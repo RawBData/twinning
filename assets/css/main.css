@@ -3041,13 +3041,25 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 769px) {
 
 			.features article {
+				display: contents;
+				margin: 1em 2em 1em 0;
+				width: calc(50% - 1em);
+			}
+
+		}
+		
+
+		@media screen and (max-width: 736px) {
+
+			/* .features article {
+				display: unset;
 				padding: 1.5em 1.5em 0.1em 1.5em ;
 				margin: 0.875em 1.75em 0.875em 0;
 				width: calc(50% - 0.875em - 1px);
-			}
+			} */
 
 				.features article .image {
 					margin-bottom: 1.5em;
